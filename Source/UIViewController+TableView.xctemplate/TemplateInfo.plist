@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>ViewController with TableView DataSource and Delegate</string>
+	<key>Summary</key>
+	<string>ViewController with tableView</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>ViewController</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>ClassName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>ViewController name: </string>
+			<key>Description</key>
+			<string>The name of this viewController (Should end ViewController in MVC):</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>Separate</string>
+			<key>Description</key>
+			<string>The implementation type (separate extensions from Main class)</string>
+			<key>Identifier</key>
+			<string>implementationType</string>
+			<key>MainTemplateFiles</key>
+			<dict>
+				<key>Swift</key>
+				<string>___FILEBASENAME___.swift</string>
+			</dict>
+			<key>Name</key>
+			<string>Implementation Type:</string>
+			<key>Required</key>
+			<string>Yes</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Separate</string>
+				<string>Unified</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
