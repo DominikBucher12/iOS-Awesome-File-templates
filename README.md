@@ -11,12 +11,12 @@ This repository serves as a storage for developers to ease their boilerplate cod
 3. [Optional] Start hacking and create custom template
 4. Share with other people so you are awesome and get all the girls at the bar.
 
-# TODOS: 
+### TODOS: 
 
-[ ] Create script which makes copying the template from Xcode directory to you 
-[ ] Figure out generating project templates so we can figure out MVVM app with Flow Coordinator pattern right set.
+- [ ] Create script which makes copying the template from Xcode directory to you (is super simple)
+- [ ] Figure out generating project templates so we can figure out MVVM app with Flow Coordinator pattern right set. (is intermidiate)
 
-
+## Additional info
 You can take a look at article I wrote about templates located in here. 
 
 https://www.linkedin.com/pulse/template-everything-dominik-bucher/
